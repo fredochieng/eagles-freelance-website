@@ -14,9 +14,19 @@ import { WritersComponent } from './components/home/includes/writers/writers.com
 import { TestimonialsComponent } from './components/home/includes/testimonials/testimonials.component';
 import { FaqsComponent } from './components/home/includes/faqs/faqs.component';
 import { StartBoxComponent } from './components/home/includes/start-box/start-box.component';
+import { ProcessComponent } from './components/home/includes/process/process.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { PreloaderComponent } from './components/home/includes/preloader/preloader.component';
+import { PageTitleComponent } from './components/about-us/includes/page-title/page-title.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ServicesComponent } from './components/services/services.component';
+import { AcademicServicesComponent } from './components/services/includes/academic-services/academic-services.component';
+import { SoftwareServicesComponent } from './components/services/includes/software-services/software-services.component';
+import { AssignmentsComponent } from './components/assignments/assignments.component';
+import { ReviewsComponent } from './components/reviews/reviews.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, FooterComponent, HeaderComponent, SliderComponent, AboutComponent, HomepageServicesComponent, ChooseUsComponent, WritersComponent, TestimonialsComponent, FaqsComponent, StartBoxComponent],
+  declarations: [AppComponent, HomeComponent, FooterComponent, HeaderComponent, SliderComponent, AboutComponent, HomepageServicesComponent, ChooseUsComponent, WritersComponent, TestimonialsComponent, FaqsComponent, StartBoxComponent, ProcessComponent, AboutUsComponent, PreloaderComponent, PageTitleComponent, ContactComponent, ServicesComponent, AcademicServicesComponent, SoftwareServicesComponent, AssignmentsComponent, ReviewsComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
